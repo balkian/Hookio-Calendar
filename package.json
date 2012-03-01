@@ -1,0 +1,23 @@
+{
+  "author": "J.Fernando Sánchez <balkian@gmail.com>",
+  "name": "hook.io-calendar",
+  "description": "Hook for calendar integration",
+  "keywords" : [ "hook", "hook.io", "calendar" ],
+  "version": "0.0.1",
+  "bugs" : { "url" : "http://github.com/balkian" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/balkian/hookio-calendar.git"
+  },
+  "bin": {
+     "hookio-calendar": "./bin/calendar"
+   },
+  "main": "./lib/calendar",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io" : "0.8.x"
+  },
+  "devDependencies": {}
+}
